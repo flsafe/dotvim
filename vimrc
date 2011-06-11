@@ -19,3 +19,8 @@ set incsearch
 set number
 set ignorecase
 set smartcase
+
+"Solarized"
+syntax enable
+set background=dark
+colorscheme solarized
