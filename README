@@ -1,0 +1,9 @@
+
+== Clone Repository
+
+ git clone git://github.com/flsafe/dotvim.git
+
+== Setup symlinks
+
+ ln -s ~/.vim/.vimrc ~/.vimrc
+ ln -s ~/.vim/.gvimrc ~/.gvimrc
