@@ -1,21 +1,36 @@
 
-== Clone Repository
 
- git clone git://github.com/flsafe/dotvim.git
+=== HOW TO INSTALL ===
 
-== Setup symlinks
+- Clone Repository
 
- ln -s ~/.vim/.vimrc ~/.vimrc
- ln -s ~/.vim/.gvimrc ~/.gvimrc
+   git clone git://github.com/flsafe/dotvim.git
 
- == Init bundle git submodules
+- Setup symlinks
 
- cd ~/.vim
- git submodule init
- git submodule update
+   ln -s ~/.vim/.vimrc ~/.vimrc
+   ln -s ~/.vim/.gvimrc ~/.gvimrc
 
- == Git update bundle git submodule
+- Init bundle git submodules
 
- cd ~/.vim/bundle/i_want_to_update
- git pull
+   cd ~/.vim
+   git submodule init
+   git submodule update
+
+
+== HOW TO INSTALL A NEW BUNDLE ==
+
+- Example with the fugitive bundle
+
+   git submodule add http://github.com/tpope/vim-fugitive bundle/fugitive
+   git add .
+   git commit -m "Add fugitive bundle
+
+
+== HOW TO UPDATE A BUNDLE ==
+
+ - Update bundle git submodule
+
+   cd ~/.vim/bundle/i_want_to_update
+   git pull
 
