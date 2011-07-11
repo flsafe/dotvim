@@ -20,6 +20,10 @@ set number
 set ignorecase
 set smartcase
 
+"Mappings"
+map <C-h> :tabp<CR>
+map <C-l> :tabn<CR>
+
 "Solarized"
 syntax enable
 set background=light
