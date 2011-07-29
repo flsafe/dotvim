@@ -3,7 +3,7 @@
 if has("gui_gtk2")
   set guifont=Inconsolata\ 13
 else
-  set guifont=Inconsolata:h16
+  set guifont=Inconsolata:h20
 endif
 set guioptions-=T
 set guioptions-=m

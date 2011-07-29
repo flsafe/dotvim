@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/flicea'
-let g:netrw_dirhist_2='/Users/flicea/Projects/rasberry'
-let g:netrw_dirhist_3='/Users/flicea/Projects/rasberry/app'
-let g:netrw_dirhist_4='/Users/flicea/Projects/rasberry'
-let g:netrw_dirhist_5='/Users/flicea/Projects/eval_speed'
-let g:netrw_dirhist_6='/Users/flicea/Projects/rasberry'
-let g:netrw_dirhist_7='/Users/flicea/Projects/rasberry/db/migrate'
-let g:netrw_dirhist_8='/Users/flicea/Projects/rasberry'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/flicea/Projects/rasberry'
+let g:netrw_dirhist_2='/Users/flicea/Projects/rasberry/lib/generators/unit_test'
