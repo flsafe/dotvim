@@ -26,5 +26,5 @@ map <C-l> :tabn<CR>
 
 "Solarized"
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
