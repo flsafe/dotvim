@@ -4,7 +4,7 @@
 
 - Clone Repository
 
-   git clone git://github.com/flsafe/dotvim.git
+   git clone git://github.com/flsafe/dotvim.git ~/.vim
 
 - Setup symlinks
 
@@ -24,7 +24,7 @@
 
    git submodule add http://github.com/tpope/vim-fugitive bundle/fugitive
    git add .
-   git commit -m "Add fugitive bundle
+   git commit -m "Add fugitive bundle"
 
 
 == HOW TO UPDATE A BUNDLE ==
@@ -33,4 +33,3 @@
 
    cd ~/.vim/bundle/i_want_to_update
    git pull
-
