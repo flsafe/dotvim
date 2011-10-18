@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/flicea/Projects/rasberry'
 let g:netrw_dirhist_2='/Users/flicea/Projects/rasberry/lib/generators/unit_test'
+let g:netrw_dirhist_3='/home/francisco/Projects/Adforge2'
+let g:netrw_dirhist_4='/home/francisco/Projects/Marketplace-admin'
+let g:netrw_dirhist_5='/home/francisco/Projects/Marketplace-web'
