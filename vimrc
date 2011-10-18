@@ -23,6 +23,9 @@ set smartcase
 "Mappings"
 map <C-h> :tabp<CR>
 map <C-l> :tabn<CR>
+nmap ,f :FuzzyFinderFileWithCurrentBufferDir<CR>
+nmap ,b :FuzzyFinderBuffer<CR>
+nmap ,t :FuzzyFinderTaggedFile<CR>
 
 "Solarized"
 syntax enable
