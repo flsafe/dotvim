@@ -23,6 +23,7 @@ set smartcase
 "Mappings"
 map <C-h> :tabp<CR>
 map <C-l> :tabn<CR>
+map <C-t><C-n> :tabnew<CR>
 nmap ,f :FuzzyFinderFileWithCurrentBufferDir<CR>
 nmap ,b :FuzzyFinderBuffer<CR>
 nmap ,t :FuzzyFinderTaggedFile<CR>
