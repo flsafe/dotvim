@@ -1,7 +1,7 @@
 "GUI Options"
 "set guifont=Bitstream\ Vera\ Sans\ Mono:h13
 if has("gui_gtk2")
-  set guifont=Inconsolata\ 13
+  set guifont=Inconsolata\ 11
   behave mswin
 else
   set guifont=Inconsolata:h20

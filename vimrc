@@ -11,7 +11,7 @@ set hidden
 set tabstop=2 
 set shiftwidth=2
 set softtabstop=2
-set expandtab
+"set expandtab "spaces instead of tabs
 set autoindent
 set smartindent
 set nowrap
@@ -30,5 +30,5 @@ nmap ,t :FuzzyFinderTaggedFile<CR>
 
 "Solarized"
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+colorscheme habilight
