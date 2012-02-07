@@ -28,7 +28,10 @@ nmap ,f :FuzzyFinderFileWithCurrentBufferDir<CR>
 nmap ,b :FuzzyFinderBuffer<CR>
 nmap ,t :FuzzyFinderTaggedFile<CR>
 
-"Solarized"
 syntax enable
+"Solarized"
 "set background=dark
-colorscheme habilight
+colorscheme solarized
+
+"Other theme
+"colorscheme habilight
