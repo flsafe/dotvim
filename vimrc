@@ -16,7 +16,7 @@ set autoindent
 set smartindent
 set nowrap
 set incsearch
-set number
+"set number
 set ignorecase
 set smartcase
 
@@ -29,9 +29,8 @@ nmap ,b :FuzzyFinderBuffer<CR>
 nmap ,t :FuzzyFinderTaggedFile<CR>
 
 syntax enable
-"Solarized"
-"set background=dark
-colorscheme solarized
 
-"Other theme
-"colorscheme habilight
+" Vimclojure
+filetype off
+syntax on
+filetype plugin indent on
