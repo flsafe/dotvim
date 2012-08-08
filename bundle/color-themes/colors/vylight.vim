@@ -21,7 +21,7 @@ hi Title         guifg=black    guibg=white
 hi Cursor        guibg=#111111
 hi LineNr        guifg=#aaaaaa  guibg=#f8f8f8
 hi Visual        guibg=#bbddff
-hi NonText       guifg=#cccccc  guibg=#fafafa
+"hi NonText       guifg=#cccccc  guibg=#fafafa
 hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none
 hi StatusLineNC  guifg=#666666  guibg=#eeeeee  gui=none
 hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none
@@ -32,7 +32,7 @@ hi Error         guifg=#bb3355  guibg=white    gui=none
 
 " Vim 7.x specific
 if version >= 700
-  hi CursorLine  guibg=#eeeeee  gui=none
+  hi CursorLine  guibg=white  gui=none
   hi MatchParen  guibg=#ccffdd  gui=none
   hi Pmenu       guifg=#60656f  guibg=#f0f5ff  gui=none
   hi PmenuSel    guifg=white    guibg=#3585ef  gui=bold

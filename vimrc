@@ -5,6 +5,7 @@ call pathogen#helptags()
 "General"
 set nocompatible
 set nobackup
+set noswapfile
 
 "Buffer Behavior"
 set hidden
@@ -34,3 +35,15 @@ syntax enable
 filetype off
 syntax on
 filetype plugin indent on
+
+" ack-grep
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
+" Show syntax highlighting groups for word under cursor
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+	if !exists("*synstack")
+		return
+	endif
+	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc

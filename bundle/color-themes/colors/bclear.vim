@@ -12,7 +12,7 @@ let g:colors_name = "bclear"
 
 "---GUI settings
 hi SpecialKey   guifg=#000000   guibg=#ffcde6
-hi NonText      guifg=#969696   guibg=#f0f0f0   gui=none
+hi NonText      guifg=#969696   guibg=#ffffff   gui=none
 hi Directory    guifg=#78681a
 hi ErrorMsg     guifg=#ffffff   guibg=#a01010
 hi IncSearch    guifg=#ffffff   guibg=#ff8000   gui=none
