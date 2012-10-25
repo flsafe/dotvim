@@ -1,11 +1,6 @@
 "GUI Options"
 if has("gui_gtk2")
-  set guifont=Courier\ New\ 13
-  set guifont=Mensch\ 13
-  set guifont=DejaVu\ Sans\ Mono\ 10
-  set guifont=Mono\ 11
-	set guifont=Mensch\ 10
-  set guifont=DejaVu\ Sans\ Mono\ 10
+  set guifont=Inconsolata\ 11
   behave mswin
 else
   set guifont=Inconsolata:h20
@@ -18,12 +13,8 @@ set guioptions-=r
 "colorscheme solarized
 "set background=light
 
-colorscheme vylight
-
+colorscheme Tomorrow-Night
 "colorscheme busybee
-
 "colorscheme railscasts2
-"set background=dark
-
 "colorscheme habilight
 "colorscheme tolerable
