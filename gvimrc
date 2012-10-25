@@ -1,6 +1,6 @@
 "GUI Options"
 if has("gui_gtk2")
-  set guifont=Inconsolata\ 11
+  set guifont=Inconsolata\ 12
   behave mswin
 else
   set guifont=Inconsolata:h20
