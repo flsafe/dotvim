@@ -1,6 +1,6 @@
 "GUI Options"
 if has("gui_gtk2")
-  set guifont=Inconsolata\ 12
+  set guifont=monofur\ 12
   behave mswin
 else
   set guifont=Inconsolata:h20
@@ -13,7 +13,10 @@ set guioptions-=r
 "colorscheme solarized
 "set background=light
 
-colorscheme Tomorrow-Night
+" Favorites
+"colorscheme dusk
+"colorscheme vylight
+colorscheme Tomorrow-Night-Eighties
 "colorscheme busybee
 "colorscheme railscasts2
 "colorscheme habilight
