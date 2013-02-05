@@ -2,12 +2,25 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-"General"
+" Required for Vundle
 set nocompatible
+filetype off
+
+"Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'Valloric/YouCompleteMe.git'
+
+"Vundle
+filetype plugin indent on
+
+" Settings
+syntax on
+syntax enable
 set nobackup
 set noswapfile
-
-"Buffer Behavior"
 set hidden
 set tabstop=2 
 set shiftwidth=2
@@ -15,11 +28,16 @@ set softtabstop=2
 "set expandtab "spaces instead of tabs
 set autoindent
 set smartindent
-"set nowrap
+set nowrap
 set incsearch
 "set number
 set ignorecase
 set smartcase
+set ruler
+set foldmethod=indent " Markers used for folding
+set foldnestmax=10    " Deepest fold level
+set nofoldenable      " Set folding off by default
+set foldlevel=1
 
 "Mappings"
 map <C-t><C-h> :tabp<CR>
@@ -42,18 +60,5 @@ function! <SID>SynStack()
 	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 
-syntax enable
-
-" Vimclojure
-filetype off
-syntax on
-filetype plugin indent on
-
 " ack-grep
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
-
-" Folding
-set foldmethod=indent " Markers used for folding
-set foldnestmax=10    " Deepest fold level
-set nofoldenable      " Set folding off by default
-set foldlevel=1

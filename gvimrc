@@ -5,20 +5,21 @@ if has("gui_gtk2")
 " Other OS settings
 else
 	"set guifont=Inconsolata:h20
-  set guifont=monofur:h14
+  "set guifont=monofur:h14
+	set guifont=Menlo\ Regular:h12
 endif
 set guioptions-=T
 set guioptions-=m
 set guioptions-=r
 
 "Solarized"
-"colorscheme solarized
-"set background=light
+colorscheme solarized
+set background=light
 
 " Favorites
 "colorscheme dusk
 "colorscheme vylight
-colorscheme Tomorrow-Night-Eighties
+"colorscheme Tomorrow-Night-Eighties
 "colorscheme busybee
 "colorscheme railscasts2
 "colorscheme habilight
